@@ -106,15 +106,15 @@ puts loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
-loves_to_play && loves_dog_park
+puts loves_to_play && loves_dog_park
 
 
 # Determine if the dog loves to play or loves the dog park
-loves_to_play || loves_dog_park
+puts loves_to_play || loves_dog_park
 
 
 # Determine if the dog loves to play and is a puppy
-loves_to_play && age
+puts loves_to_play && age
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER: False. I think since true for loves_to_play does not equal age
-# (which was an integer, not Boolean), so it determined false. Since true != 1
+# ANSWER: 1. I think since loves_to_play is a Boolean data type and age is using an integer,
+# the logic is confused and got the output of 1 instead of being able to give a true/false answer.
