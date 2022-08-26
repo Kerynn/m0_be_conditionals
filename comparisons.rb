@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "Is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "Is number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,26 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Printing the result of the comparison of integers (asking if 4 is less than 9). The result should print as true.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: The first line has determined books to be the variable name and is telling us the value is 3.
+# The second line is asking a question. The comparison is asking if books is greater than 4. The results should print as false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: There are two variables assigned to integers. The value of friends is 6 and the value of siblings is 2.
+# The 3rd line is asking for a comparison of friends to siblings. "Is the number of friends greater than the number of siblings?". The results should
+# print as true since friends (6) is more than siblings (2).
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Two variables assigned to integer data types. The value of attendees is 9 and the value of meals is 8.
+# The 3rd line is asking for a comparison of meals to attendees. The != means does not equal to, so the line of code is asking does the number
+# of attendees NOT equal the number of meals. The result will print as true since attendees (9) does not equal number of meals (8).
 
 
 #-------------------
@@ -90,15 +102,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
+loves_to_play && loves_dog_park
 
 
 # Determine if the dog loves to play or loves the dog park
+loves_to_play || loves_dog_park
 
 
 # Determine if the dog loves to play and is a puppy
-
+loves_to_play && age
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
